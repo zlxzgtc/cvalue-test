@@ -12,6 +12,10 @@ public class Main {
 
     public static void func2(){
         System.out.println("func2");
-        System.out.println(RecursiveFactorial.calculateFactorial(5));
+        func3();
+    }
+
+    public static void func3(){
+        System.out.println("func3");
     }
 }
