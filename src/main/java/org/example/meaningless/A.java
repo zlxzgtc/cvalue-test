@@ -10,6 +10,5 @@ public class A {
         for (int i = 0; i < a; i++) {
             b = b + 1;
         }
-        System.out.println(a);
     }
 }
