@@ -8,6 +8,9 @@ public class A {
         a = a + b;
         b = 2;
         b = 3;
+        for (int i = 0; i < b; i++) {
+            b++;
+        }
         System.out.println(a);
     }
 }
