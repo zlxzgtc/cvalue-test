@@ -7,11 +7,9 @@ public class A {
         int b = 1;
         a = a + b;
         b = 2;
-        b = 3;
         for (int i = 0; i < a; i++) {
-            b++;
+            b = b + 1;
         }
-        b = 4;
         System.out.println(a);
     }
 }
