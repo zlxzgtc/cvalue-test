@@ -16,6 +16,9 @@ public class A {
 class innerA {
     private int a;
 
+    /**
+     * test doc
+     */
     public void outputA() {
         System.out.println("a is " + a);
     }
