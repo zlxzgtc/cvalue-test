@@ -12,3 +12,11 @@ public class A {
         }
     }
 }
+
+class innerA {
+    private int a;
+
+    public void outputA() {
+        System.out.println("a is " + a);
+    }
+}
